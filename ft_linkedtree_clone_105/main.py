@@ -79,4 +79,4 @@ class FakeContent(ft.Container):
 
 
 if __name__ == "__main__":
-    ft.flet.app(target=main, assets_dir="assets")
+    ft.app(target=main, assets_dir="assets")
