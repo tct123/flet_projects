@@ -1,5 +1,4 @@
 from flet import (
-    flet,
     Page,
     UserControl,
     Container,
@@ -13,6 +12,7 @@ from flet import (
     Card,
     transform,
 )
+import flet as ft
 
 
 class AnimatedCard(UserControl):
@@ -142,5 +142,4 @@ def main(page: Page):
     page.update()
 
 
-if __name__ == "__main__":
-    flet.app(target=main)
+ft.app(target=main)
