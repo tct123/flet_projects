@@ -139,6 +139,8 @@ class LandingPage(ft.View):
 def main(page: ft.Page):
     # Define page related settings
     page.theme_mode = ft.ThemeMode.DARK
+    page.scroll = ft.ScrollMode.AUTO
+    page.expand = True
 
     # Define a method to handle page routing
     def router(route):
