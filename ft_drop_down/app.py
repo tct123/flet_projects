@@ -8,7 +8,7 @@ from flet import *
 # the dropdown app will have two distinct parts : a top section and bottom section
 #
 # we'll start with the top
-class MainContainer(UserControl):
+class MainContainer(Container):
     def __init__(self):
         super().__init__()
 
